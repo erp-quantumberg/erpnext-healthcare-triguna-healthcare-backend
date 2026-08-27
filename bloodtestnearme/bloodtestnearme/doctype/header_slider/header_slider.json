@@ -1,0 +1,69 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2025-11-25 11:14:31.139959",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "header_slider_section",
+  "slider_text",
+  "link",
+  "active",
+  "column_break_wxdd"
+ ],
+ "fields": [
+  {
+   "fieldname": "header_slider_section",
+   "fieldtype": "Section Break",
+   "label": "Header Slider"
+  },
+  {
+   "fieldname": "slider_text",
+   "fieldtype": "Data",
+   "label": "Slider text"
+  },
+  {
+   "fieldname": "link",
+   "fieldtype": "Data",
+   "label": "Link"
+  },
+  {
+   "default": "1",
+   "fieldname": "active",
+   "fieldtype": "Check",
+   "label": "Active"
+  },
+  {
+   "fieldname": "column_break_wxdd",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-25 11:16:28.420681",
+ "modified_by": "Administrator",
+ "module": "Bloodtestnearme",
+ "name": "Header Slider",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,164 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-10-16 14:56:37.079333",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_pfyh",
+  "test_center_name",
+  "branch_name",
+  "address_line",
+  "pincode",
+  "city",
+  "state",
+  "image",
+  "url",
+  "meta_title",
+  "meta_description",
+  "order_sequence",
+  "column_break_yjhy",
+  "contact_number",
+  "alternate_contact_number",
+  "email_id",
+  "map_embed_link",
+  "timings",
+  "description",
+  "schema_data"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_pfyh",
+   "fieldtype": "Section Break",
+   "label": "Test center Address"
+  },
+  {
+   "fieldname": "test_center_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Test Center Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "branch_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Branch Name"
+  },
+  {
+   "fieldname": "address_line",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Address Line"
+  },
+  {
+   "fieldname": "pincode",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Pincode"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State"
+  },
+  {
+   "fieldname": "column_break_yjhy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contact_number",
+   "fieldtype": "Data",
+   "label": "Contact Number"
+  },
+  {
+   "fieldname": "alternate_contact_number",
+   "fieldtype": "Data",
+   "label": "Alternate Contact Number"
+  },
+  {
+   "fieldname": "email_id",
+   "fieldtype": "Data",
+   "label": "Email ID"
+  },
+  {
+   "fieldname": "map_embed_link",
+   "fieldtype": "Small Text",
+   "label": "Map Embed Link"
+  },
+  {
+   "fieldname": "timings",
+   "fieldtype": "Small Text",
+   "label": "Timings"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Code",
+   "label": "Description"
+  },
+  {
+   "fieldname": "url",
+   "fieldtype": "Data",
+   "label": "URL",
+   "reqd": 1
+  },
+  {
+   "fieldname": "meta_title",
+   "fieldtype": "Data",
+   "label": "Meta Title"
+  },
+  {
+   "fieldname": "meta_description",
+   "fieldtype": "Small Text",
+   "label": "Meta Description"
+  },
+  {
+   "fieldname": "order_sequence",
+   "fieldtype": "Int",
+   "label": "Order Sequence"
+  },
+  {
+   "fieldname": "schema_data",
+   "fieldtype": "Long Text",
+   "label": "Schema Data",
+   "options": "JSON"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-08-25 16:28:27.207438",
+ "modified_by": "Administrator",
+ "module": "Bloodtestnearme",
+ "name": "Test Center Address",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
