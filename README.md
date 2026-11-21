@@ -63,7 +63,7 @@ Use a Frappe Bench and site configured for the same framework branch as the
 app. From the Bench directory:
 
 ```bash
-bench get-app https://github.com/quantumberg2/triguna-healthcare-backend --branch develop
+bench get-app https://github.com/erp-quantumberg/erpnext-healthcare-triguna-healthcare-backend.git --branch develop
 bench setup requirements
 bench new-site bloodtestnearme.local
 bench --site bloodtestnearme.local install-app bloodtestnearme
